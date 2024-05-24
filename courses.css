@@ -1,0 +1,50 @@
+/* Courses section styles */
+#courses {
+    padding: 4rem 0;
+}
+
+#courses h2 {
+    color: #4a90e2;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#courses .lead {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+#courses .card {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#courses .card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+#courses .card-text {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+#courses ul {
+    padding-left: 20px;
+}
+
+#courses ul li {
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+#courses .btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+}
+
+#courses .btn-primary:hover {
+    background-color: #6fa3e3;
+    border-color: #6fa3e3;
+}

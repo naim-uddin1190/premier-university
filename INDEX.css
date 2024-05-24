@@ -1,0 +1,159 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #4a90e2;
+}
+
+.navbar-brand img {
+    width: 50px; 
+    height: 50; 
+  }
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #ffdf5d;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background: url('https://puc.ac.bd/Content/new-template-assets/images/SliderImage_MainCampusGEC.jpg') center center/cover no-repeat;
+    color:aqua;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    
+}
+
+.txt {
+    font-size: 1.2rem;
+    color:white;
+    font-weight: bold;
+    text-decoration:underline;
+    
+    
+}
+
+.btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+}
+
+.btn-primary:hover {
+    background-color: #ff856c;
+    border-color: #ff856c;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #818a91;
+    border-color: #818a91;
+}
+
+/* About section styles */
+#about {
+    padding: 4rem 0;
+    background-color: #f7f7f7;
+}
+
+#about h2 {
+    color: #4a90e2;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#about .lead {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+/* Courses section styles */
+#courses {
+    padding: 4rem 0;
+}
+
+#courses h2 {
+    color: #ff6f61;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#courses .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    background-color: #f8f9fa;
+}
+
+#courses .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#courses .card-title {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+#courses .card-text {
+    color: #555;
+}
+
+#courses .btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+}
+
+#courses .btn-primary:hover {
+    background-color: #6fa3e3;
+    border-color: #6fa3e3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .jumbotron-heading {
+        font-size: 2.5rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+}
